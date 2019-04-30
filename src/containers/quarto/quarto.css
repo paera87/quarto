@@ -1,0 +1,34 @@
+.quarto .hoverable{
+    color:green;
+    min-height: 10em;
+    /* valign-wrapper sets display flex */
+    justify-content: center;
+}
+
+.quarto .game-piece {
+    background-color:grey;
+    min-height: 50px;
+    justify-content:  center;
+}
+
+.quarto .square .game-piece{
+    min-height: 10em !important;
+}
+
+.quarto .square.winner .game-piece{
+    background-color: goldenrod;
+}
+
+.game-piece .round{
+    border-radius: 50%;
+}
+.game-piece .bordered{
+    border: 1px solid black;
+}
+.game-piece div{
+    width:30%;
+}
+.game-piece .big {
+    width: 70%;
+}
+
